@@ -1,0 +1,12 @@
+# Assembler debug file for MCU 8051 IDE v1.4.7
+# Used assembler: MCU 8051 IDE
+# Date: 03/05/2022
+ED307B511DE5D793C81F5C98AF994B0D "Exercise-212/example3-5.asm" 
+0 2 0 116 121
+0 3 2 125 0
+0 5 4 36 245
+0 7 6 80 1
+0 8 8 13
+0 12 9 248
+0 13 10 36 226
+0 14 12 128 248
