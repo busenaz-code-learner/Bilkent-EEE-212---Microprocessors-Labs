@@ -1,0 +1,32 @@
+ORG 0000H
+
+MOV R1, #40H
+MOV DPTR , #ARRAY
+
+LOOP:
+CLR A
+MOVC A, @A+DPTR
+JZ QUIT
+MOV @R1, A
+INC DPTR
+INC R1
+SJMP LOOP
+
+
+QUIT:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ARRAY: 'LEVEL',0
